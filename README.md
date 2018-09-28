@@ -1,5 +1,5 @@
 # django-sqlserver
-Cara install driver django dengan sql server 2014
+Cara install driver django dengan sql server 2014 dan Django 2.11
 
 ## Sebelum install pyodbc azure
 ``` 
