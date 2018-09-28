@@ -3,7 +3,7 @@ Cara install driver django dengan sql server 2014 dan Django 2.11
 
 ## Sebelum install pyodbc azure
 ``` 
-sudo apt install dpkg-dev unixodbc unixodbc-dev python-dev libdpkg-perl build-essential libssl-dev libffi-dev
+sudo apt install dpkg-dev unixodbc unixodbc-dev python3-dev libdpkg-perl build-essential libssl-dev libffi-dev
 ```
 ## Install pyodbc azure
 ```
