@@ -21,3 +21,21 @@ Driver=/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.1.so.0.1
 UsageCount=1
 ```
 Copy ODBC Driver 17 for SQL Server -> Masukan pada bagian options di settings.py
+
+## Konfigurasi Database di settings.py
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'sql_server.pyodbc',
+        'NAME': 'tesjdjango',
+        'USER': 'sa',
+        'PASSWORD': '123456Bb',
+        'HOST': '10.10.0.42\\SQLDEVCORE',
+        'PORT': '1433',
+
+        'OPTIONS': {
+                'driver': 'ODBC Driver 17 for SQL Server',
+        },
+    },
+}
+```
