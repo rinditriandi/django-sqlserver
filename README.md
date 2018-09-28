@@ -27,11 +27,11 @@ Copy ODBC Driver 17 for SQL Server -> Masukan pada bagian options di settings.py
 DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'tesjdjango',
-        'USER': 'sa',
-        'PASSWORD': '123456Bb',
-        'HOST': '10.10.0.42\\SQLDEVCORE',
-        'PORT': '1433',
+        'NAME': 'tesjdjango',               --Nama Database
+        'USER': 'sa',                       --User SQL Server
+        'PASSWORD': '123456Bb',             --Password SQL Server
+        'HOST': '10.10.0.42\\SQLDEVCORE',   --Host
+        'PORT': '1433',                     --Port Number
 
         'OPTIONS': {
                 'driver': 'ODBC Driver 17 for SQL Server',
