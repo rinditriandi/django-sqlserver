@@ -20,5 +20,4 @@ Description=Microsoft ODBC Driver 17 for SQL Server
 Driver=/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.1.so.0.1
 UsageCount=1
 ```
-copy ODBC Driver 17 for SQL Server -> Masukan pada bagian options di settings.py
-```
+Copy ODBC Driver 17 for SQL Server -> Masukan pada bagian options di settings.py
