@@ -1,9 +1,11 @@
 # django-sqlserver
 Cara install driver django dengan sql server 2014
 
-# Sebelum install pyodbc azure
- 
+## Sebelum install pyodbc azure
+``` 
 sudo apt install dpkg-dev unixodbc python-dev libdpkg-perl
-
-# Install pyodbc azure
+```
+## Install pyodbc azure
+```
 pip install django-pyodbc-azure
+```
