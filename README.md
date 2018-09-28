@@ -9,3 +9,16 @@ sudo apt install dpkg-dev unixodbc unixodbc-dev python-dev libdpkg-perl build-es
 ```
 pip install django-pyodbc-azure
 ```
+## Cek Options connection
+```
+sudo pico /etc/odbcinst.ini
+```
+hasilnya akan tampil seperti ini
+```
+[ODBC Driver 17 for SQL Server]
+Description=Microsoft ODBC Driver 17 for SQL Server
+Driver=/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.1.so.0.1
+UsageCount=1
+```
+copy ODBC Driver 17 for SQL Server -> Masukan pada bagian options di settings.py
+```
